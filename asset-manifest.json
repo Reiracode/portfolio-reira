@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.65976fb6.chunk.css",
-    "main.js": "/portfolio/static/js/main.4fac8ca0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4fac8ca0.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.5e21464c.chunk.js": "/portfolio/static/js/2.5e21464c.chunk.js",
-    "static/js/2.5e21464c.chunk.js.map": "/portfolio/static/js/2.5e21464c.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.8cc9d863b753a3a7b5cf5a990642d8f8.js": "/portfolio/precache-manifest.8cc9d863b753a3a7b5cf5a990642d8f8.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.65976fb6.chunk.css.map": "/portfolio/static/css/main.65976fb6.chunk.css.map",
-    "static/media/Reira_fuji.jpeg": "/portfolio/static/media/Reira_fuji.fba93005.jpeg",
-    "static/media/covid-19.jpg": "/portfolio/static/media/covid-19.63a869e6.jpg",
-    "static/media/maskfinder.PNG": "/portfolio/static/media/maskfinder.e9c4b996.PNG",
-    "static/media/mysystem.jpg": "/portfolio/static/media/mysystem.6f93602d.jpg",
-    "static/media/rehome.jpeg": "/portfolio/static/media/rehome.2ac982d9.jpeg"
+    "main.css": "/portfolio-reira/static/css/main.65976fb6.chunk.css",
+    "main.js": "/portfolio-reira/static/js/main.4fac8ca0.chunk.js",
+    "main.js.map": "/portfolio-reira/static/js/main.4fac8ca0.chunk.js.map",
+    "runtime~main.js": "/portfolio-reira/static/js/runtime~main.19a04327.js",
+    "runtime~main.js.map": "/portfolio-reira/static/js/runtime~main.19a04327.js.map",
+    "static/js/2.5e21464c.chunk.js": "/portfolio-reira/static/js/2.5e21464c.chunk.js",
+    "static/js/2.5e21464c.chunk.js.map": "/portfolio-reira/static/js/2.5e21464c.chunk.js.map",
+    "index.html": "/portfolio-reira/index.html",
+    "precache-manifest.ab458b0e50c2f30e13291ed08b2a87eb.js": "/portfolio-reira/precache-manifest.ab458b0e50c2f30e13291ed08b2a87eb.js",
+    "service-worker.js": "/portfolio-reira/service-worker.js",
+    "static/css/main.65976fb6.chunk.css.map": "/portfolio-reira/static/css/main.65976fb6.chunk.css.map",
+    "static/media/Reira_fuji.jpeg": "/portfolio-reira/static/media/Reira_fuji.fba93005.jpeg",
+    "static/media/covid-19.jpg": "/portfolio-reira/static/media/covid-19.63a869e6.jpg",
+    "static/media/maskfinder.PNG": "/portfolio-reira/static/media/maskfinder.e9c4b996.PNG",
+    "static/media/mysystem.jpg": "/portfolio-reira/static/media/mysystem.6f93602d.jpg",
+    "static/media/rehome.jpeg": "/portfolio-reira/static/media/rehome.2ac982d9.jpeg"
   }
 }
