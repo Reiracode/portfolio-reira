@@ -5,7 +5,7 @@ import Resume from './views/resume';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="portfolio-reira">
     <Routes>
       <Route index element={<Resume />} />
         {/* <Route path='/Resume' element={<Resume />} /> */}
