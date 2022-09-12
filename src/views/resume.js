@@ -234,9 +234,13 @@ function Resume() {
                   <span className="subtitle">Web developer</span>
 
                   <p className="excerpt">
-                    I use my passion and skills to create the following collections,
-                    includes UI design and different style to present my passion for Front-End. 
-                    What follows is a account of my works.
+                    My interests are in Front End Engineering,
+                    and I love to create beautiful and performant products with delightful user experiences.
+                  </p>
+
+                  <p className="excerpt">  
+                    I built the web design project over the period of two years on HTML5, CSS3, Javascript, jQuery and React JS
+                    and to implement user interface design principles on website design.
                   </p>
                 </div>
               </div>

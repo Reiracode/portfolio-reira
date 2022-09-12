@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url(/Applications/XAMPP/xamppfiles/htdocs/dashboard/F2E_project/portfolio-main/src/style/normalize.css);
+@import url(/Applications/XAMPP/xamppfiles/htdocs/dashboard/F2E_project/portfolio-reira/src/style/normalize.css);
 *,
 *::after,
 *::before {
@@ -145,7 +145,7 @@ html {
 .slider-content {
   position: relative;
   max-width: 100vw;
-  min-width: 480px;
+  min-width: 400px;
   background: #fff;
   margin: 0 auto;
   overflow: hidden;
@@ -157,6 +157,9 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .slider-content .slide.active {
@@ -170,8 +173,14 @@ html {
   clear: both;
 }
 
+.slider-content .slide:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 .slider-content .slide:nth-child(odd) .img {
-  margin-left: 50%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
@@ -187,7 +196,6 @@ html {
 }
 
 .slider-content .slide:nth-child(even) .txt {
-  margin-left: 50%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
@@ -215,7 +223,6 @@ html {
 }
 
 .slider-container .slide-content {
-  position: absolute;
   display: block;
   width: 50%;
   height: 100%;
@@ -264,7 +271,7 @@ html {
   margin-bottom: 4rem;
   line-height: 1;
   font-weight: 600;
-  color: #95759f;
+  color: #6b5675;
 }
 
 .slider-container .slide-content .txt-wrapper h2 span {
@@ -291,9 +298,13 @@ html {
   font-weight: 600;
 }
 
-.slider-container .slide-content .txt-wrapper a {
+.slider-container .slide-content .txt-wrapper a, .slider-container .slide-content .txt-wrapper strong {
   text-decoration: none;
-  color: #AEACAB;
+  color: #595252;
+}
+
+.slider-container .slide-content .txt-wrapper a:hover {
+  cursor: pointer;
 }
 
 .slider-container .slide-content .txt-wrapper button {
@@ -316,12 +327,6 @@ html {
           box-shadow: 2px 2px 1rem 0 rgba(0, 0, 0, 0.3);
 }
 
-.slider-container .slide-content .txt-wrapper .phone {
-  display: block;
-  color: black;
-  font-size: 1.9rem;
-}
-
 .slider-container .slide-content .txt-wrapper .subtitle {
   display: block;
   text-transform: uppercase;
@@ -329,12 +334,15 @@ html {
   font-weight: bold;
   letter-spacing: 0.3rem;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.slider-container .slide-content .txt-wrapper p {
+  font-size: 16px;
 }
 
 .slider-container .slide-content .txt-wrapper p.excerpt,
 .slider-container .slide-content .txt-wrapper div.excerpt {
-  margin: 0;
   color: #464646;
   font-size: 14px;
   line-height: 1.5;
@@ -376,6 +384,35 @@ html {
 
 .slider-container .slide-content .txt-wrapper .date-wrapper .month {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .slide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .slider-content .slide:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .slider-container .slide-content {
+    width: 100%;
+  }
+  .slide .img {
+    display: none;
+  }
+  .slider-content .slide .txt-wrapper span.copy {
+    font-size: 2rem;
+  }
+  .slider-container .slide-content .txt-wrapper button {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 20px;
+  }
 }
 
 .slider-container .slide-content .txt-wrapper .post-wrapper {
