@@ -70,13 +70,11 @@ function Resume() {
 
       addArrayRef.current[slide] = gsap
         .timeline()
-        .to(z(".copy"), { autoAlpha: 1, duration: 0.3, delay: 0.15 })
+        .to(z(".copy"), { autoAlpha: 1, duration: 0.3, delay: 0.5 })
         .to(z(".txt"), { y: '0%', duration: 0.4, delay: 0.15 })
         .to(z(".img"), { y: '0%', duration: 0.4, delay: 0.15 })
     }
   }
- 
- 
 
   function createNextPanel() {
     console.log(slide)
@@ -124,30 +122,28 @@ function Resume() {
   const ex = gsap.utils.selector(btn_nav);
 
   function showNav() {
-    // console.log(slide)
-    // console.log(slidelen)
     if (slide == slidelen) {
       ex.current = gsap
         .timeline()
         .to(ex(".nav-down"),
-          { autoAlpha: 0, delay: 0.5, duration: 0.5 })
+          { autoAlpha: 0, delay: 0.5, duration: 0.2 })
     } else {
       ex.current = gsap
         .timeline()
         .to(ex(".nav-down"),
-          { autoAlpha: 1, delay: 0.5, duration: 0.5 })
+          { autoAlpha: 1, delay: 0.5, duration: 0.2 })
     }
 
     if (slide == 1) {
       el.current = gsap
         .timeline()
         .to(ex(".nav-up"),
-          { autoAlpha: 0, delay: 0.5, duration: 0.5 })
+          { autoAlpha: 0, delay: 0.5, duration: 0.2 })
     } else {
       el.current = gsap
         .timeline()
         .to(ex(".nav-up"),
-          { autoAlpha: 1, delay: 0.5, duration: 0.5 })
+          { autoAlpha: 1, delay: 0.5, duration: 0.2 })
     }
   }
 
@@ -196,7 +192,12 @@ function Resume() {
       <div className="slider-content">
 
         <div className="header-wrapper">
-          <div className="logo">Reira</div>
+          {/* <div className="logo">Reira</div> */}
+    
+          <div className="logo">
+            <a href="https://reiracode.github.io/portfolio-reira/">Reira</a>
+          </div>
+
         </div>
 
         <div className="number-wrapper">
@@ -346,7 +347,7 @@ function Resume() {
                       <li>react-table</li>
                       <li>props:parent to child | child to parent的傳遞與dom的設計</li>
                       <li>State Management : 員工編號及部門 createContext / useContext / useReducer</li>
-                      <li>Axios 串接 free API/ API integration</li>
+                      <li>Axios 串接 free API / API integration</li>
                     </ul>
                   </div>
                   <button onClick={() => openInNewTab('https://reiracode.github.io/Mysystem/login')}>
@@ -412,14 +413,6 @@ function Resume() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="footer">
-          {/* <div className="social-wrapper">
-            <ul>
-              <li><a href="https://github.com/Reiracode">Github</a></li>
-            </ul>
-          </div> */}
-
         </div>
       </div>
 
