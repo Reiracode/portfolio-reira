@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80314ce2da8673722f17834b1b1bb2d9",
+    "revision": "a1c04f62078ce7de4843cff72830a9e0",
     "url": "/portfolio-reira/index.html"
   },
   {
-    "revision": "9f4396f9e3c67789e3e6",
+    "revision": "9bbcc40cf880694bdfbc",
     "url": "/portfolio-reira/static/css/main.7c9cbb71.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-reira/static/js/2.5e21464c.chunk.js"
   },
   {
-    "revision": "9f4396f9e3c67789e3e6",
-    "url": "/portfolio-reira/static/js/main.270755e7.chunk.js"
+    "revision": "9bbcc40cf880694bdfbc",
+    "url": "/portfolio-reira/static/js/main.fbc852df.chunk.js"
   },
   {
     "revision": "cf6f02430117fb2c3743",
