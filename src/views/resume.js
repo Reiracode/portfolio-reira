@@ -271,7 +271,7 @@ function Resume() {
                       <li>Leaflet.js與OpenStreetMap建立地圖資料</li>
                       <li>Leaflet.markerClusterGroup群集化資料</li>
                       <li>Geolocation取得使用者的位置資訊</li>
-                      <li>Promise非同步串接 API / JSON intergration</li>
+                      <li>Promise非同步串接 API / JSON integration</li>
                       <li>localstorge收藏藥局資訊 / 個人日期記錄備註</li>
                       <li>vanilla javascript</li>
 
@@ -307,10 +307,10 @@ function Resume() {
                         jQeury / gsap / locomotive-scroll / splitting /
                         swiper / simplePagination/ TwCitySelector
                       </li>
-                      <li>Axios串接API / JSON intergration</li>
+                      <li>Axios串接API / JSON integration</li>
                       <li>webpack 模組化</li>
                       <li>使用localstorge管理購物車狀態</li>
-                      <li>free api模擬實務串接 / JSON intergration</li>
+                      <li>free api模擬實務串接 / JSON integration</li>
                       <li>API設計 後端php / nodejs</li>
                     </ul>
                   </div>
@@ -347,7 +347,7 @@ function Resume() {
                       <li>react-table</li>
                       <li>props:parent to child | child to parent的傳遞與dom的設計</li>
                       <li>State Management : 員工編號及部門 createContext / useContext / useReducer</li>
-                      <li>Axios 串接 free API / API integration</li>
+                      <li>Axios 串接 free API / API data integration</li>
                     </ul>
                   </div>
                   <button onClick={() => openInNewTab('https://reiracode.github.io/Mysystem/login')}>
@@ -380,7 +380,7 @@ function Resume() {
                       <li>vanilla javascript</li>
                       <li>TopoJSON</li>
                       <li>C3.js</li>
-                      <li>API json / JSON intergration</li>
+                      <li>API json / JSON integration</li>
                     </ul>
                   </div>
                   <button onClick={() => openInNewTab('https://reiracode.github.io/covid19_dashboard/')}>
