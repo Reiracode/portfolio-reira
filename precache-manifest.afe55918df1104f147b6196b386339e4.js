@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f01b33a58bc6b48c75da8ac32f391c72",
+    "revision": "7af3a27f508e322194d104fe314e3e63",
     "url": "/portfolio-reira/index.html"
   },
   {
-    "revision": "bd8f2bd2868cd43aee03",
+    "revision": "5082833fb9f31e55a0e6",
     "url": "/portfolio-reira/static/css/main.7c9cbb71.chunk.css"
   },
   {
@@ -12,16 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-reira/static/js/2.5e21464c.chunk.js"
   },
   {
-    "revision": "bd8f2bd2868cd43aee03",
-    "url": "/portfolio-reira/static/js/main.bcc5827f.chunk.js"
+    "revision": "5082833fb9f31e55a0e6",
+    "url": "/portfolio-reira/static/js/main.6cf04347.chunk.js"
   },
   {
     "revision": "cf6f02430117fb2c3743",
     "url": "/portfolio-reira/static/js/runtime~main.19a04327.js"
-  },
-  {
-    "revision": "fba9300520f0cd356daa7eefaac45c1f",
-    "url": "/portfolio-reira/static/media/Reira_fuji.fba93005.jpeg"
   },
   {
     "revision": "63a869e6eb2364ff75400e80078e205c",
@@ -38,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ac982d920b01375e3d93bdabde0cc0f",
     "url": "/portfolio-reira/static/media/rehome.2ac982d9.jpeg"
+  },
+  {
+    "revision": "1138d5d7e4933b6badc44e5c45e3694e",
+    "url": "/portfolio-reira/static/media/reira3.1138d5d7.jpeg"
   }
 ]);
