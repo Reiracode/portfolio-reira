@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import gsap from "gsap";
 import '../style/portfolio.scss';
-import reiralogo from "../img/Reira_fuji.jpeg"
+import reiralogo from "../img/reira3.jpeg"
 import rehome from "../img/rehome.jpeg"
 import maskfinder from "../img/maskfinder.PNG"
 import mysystem from "../img/mysystem.jpg"
@@ -240,7 +240,7 @@ function Resume() {
                   </p>
 
                   <p className="excerpt">  
-                    I built the web design project over the period of two years on HTML5, CSS3, Javascript, jQuery and React JS
+                    I built the web design project over the period of two years on HTML5, CSS, SCSS, Javascript, jQuery and React JS
                     and to implement user interface design principles on website design.
                   </p>
                 </div>
