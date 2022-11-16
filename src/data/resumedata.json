@@ -1,0 +1,76 @@
+[
+  {
+    "project_name": "Mask Finder",
+    "title": "口罩地圖",
+    "cover": "/img/maskfinder.png",
+    "cover2": "require('../assets/img/maskfinder.png')",
+    "cover1": "require('../../../img/maskfinder.png');",
+    "desc": [
+      "取得使用者的位置資訊,重新定位功能",
+      "縣市／鄉鎮市區／篩選功能實作,依計算距離並排序",
+      "收藏藥局功能實作及個人日期記錄",
+      "RWD 響應式網頁"
+    ],
+
+    "tech": [
+      "Leaflet.js與OpenStreetMap建立地圖資料",
+      "Leaflet.markerClusterGroup群集化資料",
+      "Geolocation取得使用者的位置資訊",
+      "Promise非同步串接 API / JSON integration",
+      "localstorge收藏藥局資訊 / 個人日期記錄備註",
+      "vanilla javascript"
+    ],
+    "url": "https://reiracode.github.io/Mask_Finder"
+  },
+  {
+    "project_name": "Rehome",
+    "title": "傢飾電商系統",
+    "cover": "/img/rehome.jpeg",
+    "desc": [
+      "animation design : SVG landing Page/商品頁切換/購物車",
+      "查詢商品/tags分類",
+      "隨機商品推薦 / 商品頁面 / 商品細節頁",
+      "加入購物車 / 登入會員 / 結帳"
+    ],
+    "tech": ["plugin:jQeury / gsap / locomotive-scroll / splitting /swiper / simplePagination/ TwCitySelector",
+    "Axios串接API / JSON integration",
+    "webpack 模組化,使用localstorge管理購物車狀態",
+    "free api模擬實務串接 / JSON integration","API設計 後端php / nodejs"],
+    "url": "https://reiracode.github.io/webpack_rehome/"
+  },
+  {
+    "project_name": "e-Signature system",
+    "title": "簽核系統",
+    "cover": "/img/mysystem.jpg",
+    "desc": [
+      "登入 / 登出 / 註冊",
+      "CRUD功能 : 請購單及採購單勾稽請購資料",
+      "送出表單,解析簽核流程,RWD 響應式網頁"
+    ],
+    "tech": [
+      "react react-dom / private route",
+      "react-table,props:parent to child | child to parent的傳遞與dom的設計",
+      "State Management : 員工編號及部門 createContext / useContext / useReducer",
+      "Axios 串接 free API / API data integration"
+    ],
+    "url": "https://reiracode.github.io/Mysystem/login"
+  },
+  {
+    "project_name": "Covid-19 dashboard",
+    "title": "疫情走勢",
+    "cover": "/img/covid-19.jpg",
+    "desc": ["台灣本土地理分佈圖",
+    "本土病例分佈","Number of newly confirmed cases(Date)",
+    "每日各縣市新增病例趨勢圖",
+    "每日新增本土病例趨勢圖"],
+    "tech": ["vanilla javascript","TopoJSON","C3.js","API json / JSON integration"],
+    "url": "https://reiracode.github.io/covid19_dashboard/"
+  },
+  {
+    "project_name": "Your bike",
+    "cover": "/img/ubike.jpg",
+    "desc":["車位分佈","租車分佈","drag map 顯示週邊車位資訊"] ,
+    "tech": ["react","react-leaflet","API json / JSON integration"],
+    "url": "https://reiracode.github.io/covid19_dashboard/"
+  }
+]
