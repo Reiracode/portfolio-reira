@@ -68,9 +68,10 @@
   },
   {
     "project_name": "Your bike",
+    "title": "自行車地圖",
     "cover": "ubike.jpg",
-    "desc":["車位分佈","租車分佈","drag map 顯示週邊車位資訊"] ,
-    "tech": ["react","react-leaflet","API json / JSON integration"],
-    "url": "https://reiracode.github.io/covid19_dashboard/"
+    "desc": ["車位分佈", "租車分佈", "drag map 顯示週邊車位資訊"],
+    "tech": ["react", "react-leaflet", "API json / JSON integration"],
+    "url": "https://reiracode.github.io/react-leaflet-map"
   }
 ]
