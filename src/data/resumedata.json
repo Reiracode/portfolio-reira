@@ -25,7 +25,7 @@
   {
     "project_name": "Rehome",
     "title": "傢飾電商系統",
-    "cover": "%PUBLIC_URL%/img/rehome.jpeg",
+    "cover": "rehome.jpeg",
     "desc": [
       "animation design : SVG landing Page/商品頁切換/購物車",
       "查詢商品/tags分類",
@@ -41,7 +41,7 @@
   {
     "project_name": "e-Signature system",
     "title": "簽核系統",
-    "cover": "%PUBLIC_URL%/img/mysystem.jpg",
+    "cover": "mysystem.jpg",
     "desc": [
       "登入 / 登出 / 註冊",
       "CRUD功能 : 請購單及採購單勾稽請購資料",
@@ -58,7 +58,7 @@
   {
     "project_name": "Covid-19 dashboard",
     "title": "疫情走勢",
-    "cover": "%PUBLIC_URL%/img/covid-19.jpg",
+    "cover": "covid-19.jpg",
     "desc": ["台灣本土地理分佈圖",
     "本土病例分佈","Number of newly confirmed cases(Date)",
     "每日各縣市新增病例趨勢圖",
@@ -68,7 +68,7 @@
   },
   {
     "project_name": "Your bike",
-    "cover": "%PUBLIC_URL%/img/ubike.jpg",
+    "cover": "ubike.jpg",
     "desc":["車位分佈","租車分佈","drag map 顯示週邊車位資訊"] ,
     "tech": ["react","react-leaflet","API json / JSON integration"],
     "url": "https://reiracode.github.io/covid19_dashboard/"

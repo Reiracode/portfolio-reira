@@ -228,8 +228,8 @@ function Resume() {
               </div>
               <div className="slide-content img">
               {/* <img src={item.cover} alt="" /> */}
-              <img src={process.env.PUBLIC_URL + "/maskfinder.png"} alt="" /> 
-            
+              {/* <img src={process.env.PUBLIC_URL + "/maskfinder.png"} alt="" />  */}
+              <img src={process.env.PUBLIC_URL + '/img/'+ item.cover} alt="" /> 
 
               
               {/* {"cover": "maskfinder.png",} */}
