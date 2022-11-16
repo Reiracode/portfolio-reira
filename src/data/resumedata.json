@@ -3,15 +3,12 @@
     "project_name": "Mask Finder",
     "title": "口罩地圖",
     "cover": "maskfinder.png",
-    "cover2": "require('../assets/img/maskfinder.png')",
-    "cover1": "require('../../../img/maskfinder.png');",
     "desc": [
       "取得使用者的位置資訊,重新定位功能",
       "縣市／鄉鎮市區／篩選功能實作,依計算距離並排序",
       "收藏藥局功能實作及個人日期記錄",
       "RWD 響應式網頁"
     ],
-
     "tech": [
       "Leaflet.js與OpenStreetMap建立地圖資料",
       "Leaflet.markerClusterGroup群集化資料",
@@ -32,10 +29,13 @@
       "隨機商品推薦 / 商品頁面 / 商品細節頁",
       "加入購物車 / 登入會員 / 結帳"
     ],
-    "tech": ["plugin:jQeury / gsap / locomotive-scroll / splitting /swiper / simplePagination/ TwCitySelector",
-    "Axios串接API / JSON integration",
-    "webpack 模組化,使用localstorge管理購物車狀態",
-    "free api模擬實務串接 / JSON integration","API設計 後端php / nodejs"],
+    "tech": [
+      "plugin:jQeury / gsap / locomotive-scroll / splitting /swiper / simplePagination/ TwCitySelector",
+      "Axios串接API / JSON integration",
+      "webpack 模組化,使用localstorge管理購物車狀態",
+      "free api模擬實務串接 / JSON integration",
+      "API設計 後端php / nodejs"
+    ],
     "url": "https://reiracode.github.io/webpack_rehome/"
   },
   {
@@ -59,11 +59,19 @@
     "project_name": "Covid-19 dashboard",
     "title": "疫情走勢",
     "cover": "covid-19.jpg",
-    "desc": ["台灣本土地理分佈圖",
-    "本土病例分佈","Number of newly confirmed cases(Date)",
-    "每日各縣市新增病例趨勢圖",
-    "每日新增本土病例趨勢圖"],
-    "tech": ["vanilla javascript","TopoJSON","C3.js","API json / JSON integration"],
+    "desc": [
+      "台灣本土地理分佈圖",
+      "本土病例分佈",
+      "Number of newly confirmed cases(Date)",
+      "每日各縣市新增病例趨勢圖",
+      "每日新增本土病例趨勢圖"
+    ],
+    "tech": [
+      "vanilla javascript",
+      "TopoJSON",
+      "C3.js",
+      "API json / JSON integration"
+    ],
     "url": "https://reiracode.github.io/covid19_dashboard/"
   },
   {
