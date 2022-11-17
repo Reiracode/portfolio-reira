@@ -1,4 +1,11 @@
-[
+[  {
+    "project_name": "Yourbike",
+    "title": "自行車地圖",
+    "cover": "ubike.jpg",
+    "desc": ["取得位置資訊","重新定位功能","車位/租車分佈", "dragmap拖曳功能", "顯示週邊車位資訊"],
+    "tech": ["react", "react-leaflet", "API json / JSON integration"],
+    "url": "https://reiracode.github.io/react-leaflet-map"
+  },
   {
     "project_name": "Mask Finder",
     "title": "口罩地圖",
@@ -73,13 +80,5 @@
       "API json / JSON integration"
     ],
     "url": "https://reiracode.github.io/covid19_dashboard/"
-  },
-  {
-    "project_name": "Your bike",
-    "title": "自行車地圖",
-    "cover": "ubike.jpg",
-    "desc": ["車位分佈", "租車分佈", "drag map 顯示週邊車位資訊"],
-    "tech": ["react", "react-leaflet", "API json / JSON integration"],
-    "url": "https://reiracode.github.io/react-leaflet-map"
   }
 ]

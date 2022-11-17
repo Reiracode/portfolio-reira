@@ -259,8 +259,6 @@ function Resume() {
     <div className="slider-content">
 
       <div className="header-wrapper">
-        {/* <div className="logo">Reira</div> */}
-
         <div className="logo">
           <a href="https://reiracode.github.io/portfolio-reira/">Reira</a>
         </div>
@@ -316,192 +314,14 @@ function Resume() {
               <img src={reiralogo} alt="" />
             </div>
           </div>
-
-          {/* <div className="slide" data-order="2" ref={addNewRef} >
-              <div className="slide-content txt">
-                <div className="txt-wrapper">
-                  <span className="copy">Show with me</span>
-                  <h2>Mask Finder 口罩地圖</h2>
-                  <div className="excerpt">
-                    <h5>功能</h5>
-                    <ul>
-                      <li>取得使用者的位置資訊</li>
-                      <li>重新定位功能</li>
-                      <li>縣市／鄉鎮市區／篩選功能實作</li>
-                      <li>依計算距離並排序</li>
-                      <li>收藏藥局功能實作及個人日期記錄</li>
-                      <li>RWD 響應式網頁</li>
-                    </ul>
-
-                    <h5>使用技術</h5>
-                    <ul>
-                      <li>Leaflet.js與OpenStreetMap建立地圖資料</li>
-                      <li>Leaflet.markerClusterGroup群集化資料</li>
-                      <li>Geolocation取得使用者的位置資訊</li>
-                      <li>Promise非同步串接 API / JSON integration</li>
-                      <li>localstorge收藏藥局資訊 / 個人日期記錄備註</li>
-                      <li>vanilla javascript</li>
-
-                    </ul>
-                  </div>
-                  <button onClick={() => openInNewTab('https://reiracode.github.io/Mask_Finder/')}>
-                    Link
-                  </button>
-                </div>
-              </div>
-              <div className="slide-content img">
-                <img src={maskfinder} alt="" />
-              </div>
-            </div>
-
-            <div className="slide" data-order="3" ref={addNewRef}>
-              <div className="slide-content txt">
-                <div className="txt-wrapper">
-                  <span className="copy">Show with me</span>
-                  <h2>Rehome 傢飾電商系統</h2>
-                  <div className="excerpt">
-                    <h5>功能</h5>
-                    <ul>
-                      <li>animation design : SVG landing Page / 商品頁切換 / 購物車 </li>
-                      <li>查詢商品 / tags分類</li>
-                      <li>隨機商品推薦 / 商品頁面 / 商品細節頁</li>
-                      <li>加入購物車 / 登入會員 / 結帳</li>
-                    </ul>
-
-                    <h5>使用技術</h5>
-                    <ul>
-                      <li>plugin:
-                        jQeury / gsap / locomotive-scroll / splitting /
-                        swiper / simplePagination/ TwCitySelector
-                      </li>
-                      <li>Axios串接API / JSON integration</li>
-                      <li>webpack 模組化</li>
-                      <li>使用localstorge管理購物車狀態</li>
-                      <li>free api模擬實務串接 / JSON integration</li>
-                      <li>API設計 後端php / nodejs</li>
-                    </ul>
-                  </div>
-                  <button onClick={() => openInNewTab('https://reiracode.github.io/webpack_rehome/')}>
-                    Link
-                  </button>
-                </div>
-              </div>
-              <div className="slide-content img">
-                <img src={rehome} alt="" />
-              </div>
-            </div>
-
-            <div className="slide" data-order="4" ref={addNewRef}>
-              <div className="slide-content txt">
-                <div className="txt-wrapper">
-                  <span className="copy">Show with me</span>
-                  <h2>e-Signature system</h2>
-                  <div className="excerpt">
-                    <h5>功能</h5>
-                    <ul>
-                      <li>登入 / 登出 / 註冊</li>
-                      <li>CRUD功能 : 請購單及採購單勾稽請購資料</li>
-                      <li>送出表單</li>
-                      <li>解析簽核流程</li>
-                      <li>RWD 響應式網頁</li>
-                    </ul>
-
-                    <h5>使用技術</h5>
-                    <ul>
-                      <li>react react-dom / private route</li>
-                      <li>react-table</li>
-                      <li>props:parent to child | child to parent的傳遞與dom的設計</li>
-                      <li>State Management : 員工編號及部門 createContext / useContext / useReducer</li>
-                      <li>Axios 串接 free API / API data integration</li>
-                    </ul>
-                  </div>
-                  <button onClick={() => openInNewTab('https://reiracode.github.io/Mysystem/login')}>
-                    Link
-                  </button>
-                </div>
-              </div>
-              <div className="slide-content img">
-                <img src={mysystem} alt="" />
-              </div>
-            </div>
-
-            <div className="slide" data-order="5" ref={addNewRef}>
-              <div className="slide-content txt">
-                <div className="txt-wrapper">
-                  <span className="copy">Show with me</span>
-                  <h2>Covid-19 dashboard</h2>
-                  <div className="excerpt">
-                    <h5>功能</h5>
-                    <ul>
-                      <li>台灣本土地理分佈圖</li>
-                      <li>本土病例分佈</li>
-                      <li>Number of newly confirmed cases(Date)</li>
-                      <li>每日各縣市新增病例趨勢圖</li>
-                      <li>每日新增本土病例趨勢圖</li>
-                    </ul>
-
-                    <h5>使用技術</h5>
-                    <ul>
-                      <li>vanilla javascript</li>
-                      <li>TopoJSON</li>
-                      <li>C3.js</li>
-                      <li>API json / JSON integration</li>
-                    </ul>
-                  </div>
-                  <button onClick={() => openInNewTab('https://reiracode.github.io/covid19_dashboard/')}>
-                    Link
-                  </button>
-
-                </div>
-              </div>
-              <div className="slide-content img">
-                <img src={covid19} alt="" />
-              </div>
-            </div>
-
-            <div className="slide" data-order="6" ref={addNewRef}>
-              <div className="slide-content txt">
-                <div className="txt-wrapper">
-                  <span className="copy">Show with me</span>
-                  <h2>Your bike</h2>
-                  <div className="excerpt">
-                    <h5>功能</h5>
-                    <ul>
-                      <li>車位分佈</li>
-                      <li>租車分佈</li>
-                      <li>drag map 顯示週邊車位資訊</li>
-                    </ul>
-
-                    <h5>使用技術</h5>
-                    <ul>
-                      <li>react</li>
-                      <li>react-leaflet</li>
-                      <li>API json / JSON integration</li>
-                    </ul>
-                  </div>
-                  <button onClick={() => openInNewTab('https://reiracode.github.io/covid19_dashboard/')}>
-                    Link
-                  </button>
-
-                </div>
-              </div>
-              <div className="slide-content img">
-                <img src={ubike} alt="" />
-              </div>
-            </div> */}
-
           <Slidejson />
-          {/* <Slidejson data={data} /> */}
 
           <div className="slide" data-order="7" ref={addNewRef}>
             <div className="slide-content txt">
               <div className="txt-wrapper">
                 <span className="copy">Contact me</span>
                 <p><strong>Email : </strong><a href="mailto:reira.lin@gmail.com">reira.lin@gmail.com</a></p>
-
-                <p><strong>Github : </strong><a onClick={() => openInNewTab('https://github.com/Reiracode')}>
-
-                </a></p>
+                <p><strong>Github : </strong><a onClick={() => openInNewTab('https://github.com/Reiracode')}>reiracode</a></p>
 
               </div>
 
